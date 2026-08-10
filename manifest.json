@@ -322,7 +322,7 @@
   ],
   "behaviorHints": {
     "configurable": false,
-    "adult": true,
+    "adult": false,
     "p2p": false
   }
 }
