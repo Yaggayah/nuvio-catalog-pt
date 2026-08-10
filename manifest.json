@@ -1,59 +1,32 @@
 {
   "id": "com.nuvio.tmdb.catalogs",
   "version": "1.0.0",
-  "name": "Nuvio Catalog Addon",
-  "description": "Catalog Addon for Nuvio Client Powered by TMDB",
+  "name": "Catálogos Nuvio PT-BR",
+  "description": "Catálogos de filmes e séries em português via TMDB",
   "resources": [
     "catalog",
     {
       "name": "meta",
-      "types": [
-        "movie",
-        "series"
-      ],
-      "idPrefixes": [
-        "tt",
-        "tmdb:"
-      ]
+      "types": ["movie", "series"],
+      "idPrefixes": ["tt", "tmdb:"]
     }
   ],
-  "types": [
-    "movie",
-    "series"
-  ],
+  "types": ["movie", "series"],
   "catalogs": [
     {
       "type": "movie",
       "id": "trending-movies",
-      "name": "Trending Movies",
+      "name": "Filmes em Alta",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Fantasy",
-            "History",
-            "Horror",
-            "Music",
-            "Mystery",
-            "Romance",
-            "Science Fiction",
-            "TV Movie",
-            "Thriller",
-            "War",
-            "Western"
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -62,32 +35,17 @@
     {
       "type": "series",
       "id": "trending-series",
-      "name": "Trending Series",
+      "name": "Séries em Alta",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action & Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Kids",
-            "Mystery",
-            "News",
-            "Reality",
-            "Sci-Fi & Fantasy",
-            "Soap",
-            "Talk",
-            "War & Politics",
-            "Western"
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -96,39 +54,18 @@
     {
       "type": "movie",
       "id": "popular-movies",
-      "name": "Popular Movies",
+      "name": "Filmes Populares",
       "extra": [
-        {
-          "name": "search",
-          "isRequired": false
-        },
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "search", "isRequired": false},
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Fantasy",
-            "History",
-            "Horror",
-            "Music",
-            "Mystery",
-            "Romance",
-            "Science Fiction",
-            "TV Movie",
-            "Thriller",
-            "War",
-            "Western"
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -137,36 +74,18 @@
     {
       "type": "series",
       "id": "popular-series",
-      "name": "Popular Series",
+      "name": "Séries Populares",
       "extra": [
-        {
-          "name": "search",
-          "isRequired": false
-        },
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "search", "isRequired": false},
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action & Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Kids",
-            "Mystery",
-            "News",
-            "Reality",
-            "Sci-Fi & Fantasy",
-            "Soap",
-            "Talk",
-            "War & Politics",
-            "Western"
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -175,35 +94,17 @@
     {
       "type": "movie",
       "id": "critically-acclaimed-movies",
-      "name": "Critically Acclaimed Movies",
+      "name": "Filmes Aclamados pela Crítica",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Fantasy",
-            "History",
-            "Horror",
-            "Music",
-            "Mystery",
-            "Romance",
-            "Science Fiction",
-            "TV Movie",
-            "Thriller",
-            "War",
-            "Western"
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -212,32 +113,17 @@
     {
       "type": "series",
       "id": "critically-acclaimed-series",
-      "name": "Critically Acclaimed Series",
+      "name": "Séries Aclamadas pela Crítica",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action & Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Kids",
-            "Mystery",
-            "News",
-            "Reality",
-            "Sci-Fi & Fantasy",
-            "Soap",
-            "Talk",
-            "War & Politics",
-            "Western"
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -246,35 +132,17 @@
     {
       "type": "movie",
       "id": "new-and-upcoming-movies",
-      "name": "New and Upcoming Movies",
+      "name": "Filmes Novos e Próximos Lançamentos",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Fantasy",
-            "History",
-            "Horror",
-            "Music",
-            "Mystery",
-            "Romance",
-            "Science Fiction",
-            "TV Movie",
-            "Thriller",
-            "War",
-            "Western"
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -283,32 +151,17 @@
     {
       "type": "series",
       "id": "new-and-returning-series",
-      "name": "New and Returning Series",
+      "name": "Séries Novas e Retornando",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action & Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Kids",
-            "Mystery",
-            "News",
-            "Reality",
-            "Sci-Fi & Fantasy",
-            "Soap",
-            "Talk",
-            "War & Politics",
-            "Western"
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -317,35 +170,17 @@
     {
       "type": "movie",
       "id": "international-cinema",
-      "name": "International Cinema",
+      "name": "Cinema Internacional",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Fantasy",
-            "History",
-            "Horror",
-            "Music",
-            "Mystery",
-            "Romance",
-            "Science Fiction",
-            "TV Movie",
-            "Thriller",
-            "War",
-            "Western"
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -354,32 +189,17 @@
     {
       "type": "series",
       "id": "international-series",
-      "name": "International Series",
+      "name": "Séries Internacionais",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action & Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Kids",
-            "Mystery",
-            "News",
-            "Reality",
-            "Sci-Fi & Fantasy",
-            "Soap",
-            "Talk",
-            "War & Politics",
-            "Western"
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -388,35 +208,17 @@
     {
       "type": "movie",
       "id": "independent-and-festival-picks",
-      "name": "Independent & Festival Picks",
+      "name": "Filmes Independentes e de Festivais",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Fantasy",
-            "History",
-            "Horror",
-            "Music",
-            "Mystery",
-            "Romance",
-            "Science Fiction",
-            "TV Movie",
-            "Thriller",
-            "War",
-            "Western"
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -425,32 +227,17 @@
     {
       "type": "series",
       "id": "limited-series",
-      "name": "Limited Series",
+      "name": "Minisséries",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action & Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Kids",
-            "Mystery",
-            "News",
-            "Reality",
-            "Sci-Fi & Fantasy",
-            "Soap",
-            "Talk",
-            "War & Politics",
-            "Western"
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -459,35 +246,17 @@
     {
       "type": "movie",
       "id": "documentaries",
-      "name": "Documentaries",
+      "name": "Documentários",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Fantasy",
-            "History",
-            "Horror",
-            "Music",
-            "Mystery",
-            "Romance",
-            "Science Fiction",
-            "TV Movie",
-            "Thriller",
-            "War",
-            "Western"
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -496,32 +265,17 @@
     {
       "type": "series",
       "id": "documentary-series",
-      "name": "Documentary Series",
+      "name": "Séries Documentais",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action & Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Kids",
-            "Mystery",
-            "News",
-            "Reality",
-            "Sci-Fi & Fantasy",
-            "Soap",
-            "Talk",
-            "War & Politics",
-            "Western"
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -530,35 +284,17 @@
     {
       "type": "movie",
       "id": "family-movies",
-      "name": "Family Movies",
+      "name": "Filmes para Família",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Fantasy",
-            "History",
-            "Horror",
-            "Music",
-            "Mystery",
-            "Romance",
-            "Science Fiction",
-            "TV Movie",
-            "Thriller",
-            "War",
-            "Western"
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
           ],
           "optionsLimit": 1
         }
@@ -567,32 +303,17 @@
     {
       "type": "series",
       "id": "family-series",
-      "name": "Family Series",
+      "name": "Séries para Família",
       "extra": [
-        {
-          "name": "skip",
-          "isRequired": false
-        },
+        {"name": "skip", "isRequired": false},
         {
           "name": "genre",
           "isRequired": false,
           "options": [
-            "Action & Adventure",
-            "Animation",
-            "Comedy",
-            "Crime",
-            "Documentary",
-            "Drama",
-            "Family",
-            "Kids",
-            "Mystery",
-            "News",
-            "Reality",
-            "Sci-Fi & Fantasy",
-            "Soap",
-            "Talk",
-            "War & Politics",
-            "Western"
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
           ],
           "optionsLimit": 1
         }
