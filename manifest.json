@@ -1,7 +1,7 @@
 {
-  "id": "com.seu.nome.catalogs.pt",
+  "id": "com.nuvio.tmdb.catalogs.pt",
   "version": "1.0.0",
-  "name": "Catálogos Nuvio PT-BR",
+  "name": "Nuvio Catalog PT-BR",
   "description": "Catálogos de filmes e séries em português via TMDB",
   "resources": [
     "catalog",
@@ -22,12 +22,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação", "Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Fantasia", "História",
-            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
-            "Filme de TV", "Suspense", "Guerra", "Faroeste"
-          ],
+          "options": ["Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Fantasia", "História", "Terror", "Música", "Mistério", "Romance", "Ficção Científica", "Filme de TV", "Suspense", "Guerra", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -41,12 +36,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação & Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Infantil", "Mistério",
-            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
-            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
-          ],
+          "options": ["Ação & Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Infantil", "Mistério", "Notícias", "Reality Show", "Ficção Científica & Fantasia", "Novela", "Talk Show", "Guerra & Política", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -61,12 +51,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação", "Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Fantasia", "História",
-            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
-            "Filme de TV", "Suspense", "Guerra", "Faroeste"
-          ],
+          "options": ["Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Fantasia", "História", "Terror", "Música", "Mistério", "Romance", "Ficção Científica", "Filme de TV", "Suspense", "Guerra", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -81,12 +66,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação & Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Infantil", "Mistério",
-            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
-            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
-          ],
+          "options": ["Ação & Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Infantil", "Mistério", "Notícias", "Reality Show", "Ficção Científica & Fantasia", "Novela", "Talk Show", "Guerra & Política", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -100,12 +80,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação", "Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Fantasia", "História",
-            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
-            "Filme de TV", "Suspense", "Guerra", "Faroeste"
-          ],
+          "options": ["Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Fantasia", "História", "Terror", "Música", "Mistério", "Romance", "Ficção Científica", "Filme de TV", "Suspense", "Guerra", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -119,12 +94,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação & Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Infantil", "Mistério",
-            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
-            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
-          ],
+          "options": ["Ação & Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Infantil", "Mistério", "Notícias", "Reality Show", "Ficção Científica & Fantasia", "Novela", "Talk Show", "Guerra & Política", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -138,12 +108,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação", "Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Fantasia", "História",
-            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
-            "Filme de TV", "Suspense", "Guerra", "Faroeste"
-          ],
+          "options": ["Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Fantasia", "História", "Terror", "Música", "Mistério", "Romance", "Ficção Científica", "Filme de TV", "Suspense", "Guerra", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -157,12 +122,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação & Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Infantil", "Mistério",
-            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
-            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
-          ],
+          "options": ["Ação & Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Infantil", "Mistério", "Notícias", "Reality Show", "Ficção Científica & Fantasia", "Novela", "Talk Show", "Guerra & Política", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -176,12 +136,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação", "Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Fantasia", "História",
-            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
-            "Filme de TV", "Suspense", "Guerra", "Faroeste"
-          ],
+          "options": ["Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Fantasia", "História", "Terror", "Música", "Mistério", "Romance", "Ficção Científica", "Filme de TV", "Suspense", "Guerra", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -195,12 +150,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação & Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Infantil", "Mistério",
-            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
-            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
-          ],
+          "options": ["Ação & Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Infantil", "Mistério", "Notícias", "Reality Show", "Ficção Científica & Fantasia", "Novela", "Talk Show", "Guerra & Política", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -214,12 +164,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação", "Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Fantasia", "História",
-            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
-            "Filme de TV", "Suspense", "Guerra", "Faroeste"
-          ],
+          "options": ["Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Fantasia", "História", "Terror", "Música", "Mistério", "Romance", "Ficção Científica", "Filme de TV", "Suspense", "Guerra", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -233,12 +178,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação & Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Infantil", "Mistério",
-            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
-            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
-          ],
+          "options": ["Ação & Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Infantil", "Mistério", "Notícias", "Reality Show", "Ficção Científica & Fantasia", "Novela", "Talk Show", "Guerra & Política", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -252,12 +192,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação", "Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Fantasia", "História",
-            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
-            "Filme de TV", "Suspense", "Guerra", "Faroeste"
-          ],
+          "options": ["Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Fantasia", "História", "Terror", "Música", "Mistério", "Romance", "Ficção Científica", "Filme de TV", "Suspense", "Guerra", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -271,12 +206,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação & Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Infantil", "Mistério",
-            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
-            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
-          ],
+          "options": ["Ação & Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Infantil", "Mistério", "Notícias", "Reality Show", "Ficção Científica & Fantasia", "Novela", "Talk Show", "Guerra & Política", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -290,12 +220,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação", "Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Fantasia", "História",
-            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
-            "Filme de TV", "Suspense", "Guerra", "Faroeste"
-          ],
+          "options": ["Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Fantasia", "História", "Terror", "Música", "Mistério", "Romance", "Ficção Científica", "Filme de TV", "Suspense", "Guerra", "Faroeste"],
           "optionsLimit": 1
         }
       ]
@@ -309,12 +234,7 @@
         {
           "name": "genre",
           "isRequired": false,
-          "options": [
-            "Ação & Aventura", "Animação", "Comédia", "Crime",
-            "Documentário", "Drama", "Família", "Infantil", "Mistério",
-            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
-            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
-          ],
+          "options": ["Ação & Aventura", "Animação", "Comédia", "Crime", "Documentário", "Drama", "Família", "Infantil", "Mistério", "Notícias", "Reality Show", "Ficção Científica & Fantasia", "Novela", "Talk Show", "Guerra & Política", "Faroeste"],
           "optionsLimit": 1
         }
       ]
