@@ -1,0 +1,328 @@
+{
+  "id": "com.seu.nome.catalogs.pt",
+  "version": "1.0.0",
+  "name": "Catálogos Nuvio PT-BR",
+  "description": "Catálogos de filmes e séries em português via TMDB",
+  "resources": [
+    "catalog",
+    {
+      "name": "meta",
+      "types": ["movie", "series"],
+      "idPrefixes": ["tt", "tmdb:"]
+    }
+  ],
+  "types": ["movie", "series"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "trending-movies",
+      "name": "Filmes em Alta",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "trending-series",
+      "name": "Séries em Alta",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "popular-movies",
+      "name": "Filmes Populares",
+      "extra": [
+        {"name": "search", "isRequired": false},
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "popular-series",
+      "name": "Séries Populares",
+      "extra": [
+        {"name": "search", "isRequired": false},
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "critically-acclaimed-movies",
+      "name": "Filmes Aclamados pela Crítica",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "critically-acclaimed-series",
+      "name": "Séries Aclamadas pela Crítica",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "new-and-upcoming-movies",
+      "name": "Filmes Novos e Próximos Lançamentos",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "new-and-returning-series",
+      "name": "Séries Novas e Retornando",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "international-cinema",
+      "name": "Cinema Internacional",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "international-series",
+      "name": "Séries Internacionais",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "independent-and-festival-picks",
+      "name": "Filmes Independentes e de Festivais",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "limited-series",
+      "name": "Minisséries",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "documentaries",
+      "name": "Documentários",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "documentary-series",
+      "name": "Séries Documentais",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "family-movies",
+      "name": "Filmes para Família",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação", "Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "História",
+            "Terror", "Música", "Mistério", "Romance", "Ficção Científica",
+            "Filme de TV", "Suspense", "Guerra", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "family-series",
+      "name": "Séries para Família",
+      "extra": [
+        {"name": "skip", "isRequired": false},
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Ação & Aventura", "Animação", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Infantil", "Mistério",
+            "Notícias", "Reality Show", "Ficção Científica & Fantasia",
+            "Novela", "Talk Show", "Guerra & Política", "Faroeste"
+          ],
+          "optionsLimit": 1
+        }
+      ]
+    }
+  ],
+  "behaviorHints": {
+    "configurable": false,
+    "adult": true,
+    "p2p": false
+  }
+}
